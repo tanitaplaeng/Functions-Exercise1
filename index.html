@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Functions Exercise 1</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Formulas</title>
 </head>
 <body>
+    <div class="intro">  
+        <h2>Formulas</h2>
+        <p>Using functions to calculate area of a circle, circumference of a circle, area of a triangle, and area of a square</p> 
+    </div>
+    <div class="enter-number">
+        <h3>Enter a number</h3>
+        <input type="text" name="Area of a Circle" id="number">
+    </div> 
+
+        <div class="btn-container">
+            <button id="areaCircleBtn" onclick="areaClick()">Calculate Area of a Circle</button> 
+        </div>
+
+        <div class="btn-container">
+            <button id="circumferenceBtn" onclick="areaClick()">Calculate Circumference of a Circle</button> 
+        </div>
+
+        <div class="btn-container">
+            <button id="areaSquareBtn" onclick="areaClick()">Calculate Area of a Square</button> 
+        </div>
+
+        <div class="btn-container">
+            <button id="areaTriangleBtn" onclick="areaClick()">Calculate Area of a Triangle</button> 
+        </div>
+
+        <div id="result"></div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
